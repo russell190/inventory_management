@@ -8,7 +8,7 @@ This is a brief description of what this is supposed to be.
 ## User Stories
 
 
-*I am a _________, and I want to ______ so that I can ________.
+I am a _________, and I want to ______ so that I can ________.
 *I am an inventory managaer, and I want to:
   *View inventory, so that I know if we're about to sell out of products.
    *issue goods, so that we have product sin stock for sale..
