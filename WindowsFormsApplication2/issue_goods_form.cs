@@ -10,15 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form1 : Form
+    public partial class issue_goods_form : Form
     {
-        public Form1()
+        public issue_goods_form()
         {
             InitializeComponent();
         }
 
-        private void issueGoodsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
+
         }
     }
 }

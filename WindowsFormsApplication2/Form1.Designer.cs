@@ -40,32 +40,33 @@
             // 
             // menuStrip1
             // 
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewInventoryToolStripMenuItem,
             this.issueGoodsToolStripMenuItem,
             this.createProductToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
             // viewInventoryToolStripMenuItem
             // 
-            this.viewInventoryToolStripMenuItem.Name = "viewInventoryToolStripMenuItem";
             resources.ApplyResources(this.viewInventoryToolStripMenuItem, "viewInventoryToolStripMenuItem");
+            this.viewInventoryToolStripMenuItem.Name = "viewInventoryToolStripMenuItem";
             // 
             // issueGoodsToolStripMenuItem
             // 
-            this.issueGoodsToolStripMenuItem.Name = "issueGoodsToolStripMenuItem";
             resources.ApplyResources(this.issueGoodsToolStripMenuItem, "issueGoodsToolStripMenuItem");
+            this.issueGoodsToolStripMenuItem.Name = "issueGoodsToolStripMenuItem";
+            this.issueGoodsToolStripMenuItem.Click += new System.EventHandler(this.issueGoodsToolStripMenuItem_Click);
             // 
             // createProductToolStripMenuItem
             // 
-            this.createProductToolStripMenuItem.Name = "createProductToolStripMenuItem";
             resources.ApplyResources(this.createProductToolStripMenuItem, "createProductToolStripMenuItem");
+            this.createProductToolStripMenuItem.Name = "createProductToolStripMenuItem";
             // 
             // dataGridView1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Name = "dataGridView1";
             // 
             // Form1
