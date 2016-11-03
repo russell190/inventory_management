@@ -28,12 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.viewInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issueGoodsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewInventoryToolStripMenuItem,
+            this.issueGoodsToolStripMenuItem,
+            this.createProductToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // viewInventoryToolStripMenuItem
+            // 
+            this.viewInventoryToolStripMenuItem.Name = "viewInventoryToolStripMenuItem";
+            resources.ApplyResources(this.viewInventoryToolStripMenuItem, "viewInventoryToolStripMenuItem");
+            // 
+            // issueGoodsToolStripMenuItem
+            // 
+            this.issueGoodsToolStripMenuItem.Name = "issueGoodsToolStripMenuItem";
+            resources.ApplyResources(this.issueGoodsToolStripMenuItem, "issueGoodsToolStripMenuItem");
+            // 
+            // createProductToolStripMenuItem
+            // 
+            this.createProductToolStripMenuItem.Name = "createProductToolStripMenuItem";
+            resources.ApplyResources(this.createProductToolStripMenuItem, "createProductToolStripMenuItem");
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
+            this.dataGridView1.Name = "dataGridView1";
+            // 
+            // Form1
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem viewInventoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem issueGoodsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createProductToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
